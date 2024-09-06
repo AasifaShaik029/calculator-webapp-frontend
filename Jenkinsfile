@@ -12,7 +12,7 @@ pipeline {
                 checkout([$class: 'GitSCM', 
                           branches: [[name: '*/main']], 
                           extensions: [], 
-                          userRemoteConfigs: [[credentialsId: 'github-cred', url: 'https://github.com/yashrpandit/calculator-webapp-frontend.git']]
+                          userRemoteConfigs: [[credentialsId: '1f02419b-00ba-43b4-bed7-0e4f6b08a15e', url: 'https://github.com/AasifaShaik029/calculator-webapp-frontend.git']]
                 ])
             }
         }
